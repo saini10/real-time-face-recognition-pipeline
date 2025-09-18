@@ -1,0 +1,15 @@
+# IDE
+.idea/
+
+# Backups
+backup/*
+
+# Dataset: ignore all except unknown
+dataset/*
+!dataset/unknown/
+!dataset/unknown/**
+
+# Faces: ignore all except unknown
+faces/*
+!faces/unknown/
+!faces/unknown/**
